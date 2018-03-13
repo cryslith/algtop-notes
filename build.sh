@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e -u
 
 package_files=$( /usr/bin/find  | grep -E ".sty|.tex|.md" )
 echo "Compiling manual"

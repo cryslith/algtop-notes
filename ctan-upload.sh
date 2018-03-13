@@ -1,5 +1,6 @@
 #!/bin/sh
 # This is copied with very minor modificaton from https://github.com/Witiko/ctan-upload
+set -e -u
 
 die() { EXITCODE=$1; shift; printf '%s\n' "$*"; exit $EXITCODE; }
 

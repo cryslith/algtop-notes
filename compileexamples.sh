@@ -1,4 +1,6 @@
 # Only difference between this and testsuite.sh is the timeout time is very large here.
+set -e -u
+
 allPassed=1
 cd "examples"
 
